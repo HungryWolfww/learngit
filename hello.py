@@ -1,2 +1,6 @@
-1+2;
-3;
+import vulcan
+
+ffff
+
+
+vulcan.f()
