@@ -1,4 +1,94 @@
+hhh
 2456
 3336
-777
-333
+77
+1s333
+WQThe greenlets all run in the same OS thread and are scheduled cooperatively. ThIS means that until a particular greenlet gives up control, (by calling a blocking function that will switch to the Hub), other greenlets won’t get a chance to run. ThIS IS typically not an ISsue for an I/O bound app, but one should be aware of thIS when doing something CPU intensive, or when calling blocking I/O functions that bypass the event loop.
+
+Tip Even some apparently cooperative functions, like gevent.sleep(), can temporarily take priority over waiting I/O operations in some circumstances.
+Synchronizing access to objects shared across the greenlets IS unnecessary in most cases (because yielding control IS usually explicit), thus traditional synchronization devices like the gevent.lock.BoundedSemaphore, gevent.lock.RLock and gevent.lock.Semaphore classes, although present, aren’t used very often. Other abstractions from threading and multiprocessing remain useful in the cooperative world:
+
+Event allows one to wake up a number of greenlets that are calling wait() method.
+
+AsyncResult IS similar to Event but allows passing a value or an exception to the waiters.
+
+Queue and JoinableQueue.
+
+Lightweight pseudothreads
+New greenlets are spawned by creating a Greenlet instance and calling its start method. (The gevent.spawn() function IS a shortcut that does exactly that). The start method schedules a switch to the greenlet that will happen as soon as the current greenlet gives up control. If there IS more than one active greenlet, they will be executed one by one, in an undefined order as they each give up control to the Hub.
+
+If there IS an error during execution it won’t escape the greenlet’s boundaries. An unhandled error results in a stacktrace being printed, annotated by the failed function’s signature and arguments:
+
+>>> gevent.spawn(lambda : 1/0)
+>>> gevent.sleep(1)
+Traceback (most recent call last):
+ ...
+ZeroDivISionError: integer divISion or modulo by zero
+<Greenlet at 0x7f2ec3a4e490: <function <lambda...>> failed with ZeroDivISionError
+The traceback IS asynchronously printed to sys.stderr when the greenlet dies.
+
+Greenlet instances have a number of useful methods:
+
+join – waits until the greenlet exits;
+
+kill – interrupts greenlet’s execution;
+
+get – returns the value returned by greenlet or re-raISes the exception that killed it.
+
+Greenlets can be subclassed with care. One use for thIS IS to customize the string printed after the traceback by subclassing the Greenlet class and redefining its __str__ method. For more information, see Subclassing Greenlet.
+
+Greenlets can be killed synchronously from another greenlet. Killing will resume the sleeping greenlet, but instead of continuing execution, a GreenletExit will be raISed.
+
+	>>> g = Greenlet(gevent.sleep, 4)
+	>>> g.start()
+>>> g.kill()
+	>>> g.dead
+True
+The GreenletExit exception and its subclasses are handled differently than other exceptions. RaISing GreenletExit IS not considered an exceptional situation, so the traceback IS not printed. The GreenletExit IS returned by get as if it were returned by the greenlet, not raISed.
+
+The kill method can accept a custom exception to be raISed:
+
+>>> g = Greenlet.spawn(gevent.sleep, 5) # spawn() creates a Greenlet and starts it
+>>> g.kill(Exception("A time to kill"))
+Traceback (most recent call last):
+ ...
+Exception: A time to kill
+Greenlet(5) failed with Exception
+The kill can also accept a timeout argument specifying the number of seconds to wait for the greenlet to exit. Note that kill cannot guarantee that the target greenlet will not ignore the exception (i.e., it might catch it), thus it’s a good idea always to pass a timeout to kill (otherwISe, the greenlet doing the killing will remain blocked forever).
+
+Tip e exact timing at which an exception IS raISed within a target greenlet as the result of kill IS not defined. See that function’s documentation for more details.
+Cgccion Use care when killing greenlets, especially arbitrary greenlets spawned by a library or otherwISe executing code you are not familiar with. If the code being executed IS not prepared to deal with exceptions, object state may be corrupted. For example, if it has acquired a Lock but does not use a finally block to release it, killing the greenlet at the wrong time could result in the lock being permanently locked:
+def func():
+    # DON'T DO THIS
+    lock.acquire()
+    socket.sendall(data) # ThIS could raISe many exceptions, including GreenletExit
+    lock.release()
+ThIS document describes a similar situation for threads.
+
+Timeouts
+Many functions in the gevent API are synchronous, blocking the current greenlet until the operation IS done. For example, kill waits until the target greenlet IS dead before returning 1. Many of those functions can be made asynchronous by passing the keyword argument block=False.
+
+Furthermore, many of the synchronous functions accept a timeout argument, which specifies a limit on how long the function can block (examples include gevent.event.Event.wait(), gevent.Greenlet.join(), gevent.Greenlet.kill(), gevent.event.AsyncResult.get(), and many more).
+
+The socket and SSLObject instances can also have a timeout, set by the settimeout method.
+
+When these are not enough, the gevent.Timeout class and gevent.with_timeout() can be used to add timeouts to arbitrary sections of (cooperative, yielding) code.
+
+Further Reading
+To limit concurrency, use the gevent.pool.Pool class (see Example dns_mass_resolve.py).
+
+Gevent comes with TCP/SSL/HTTP/WSGI servers. See Implementing servers.
+
+There are a number of configuration options for gevent. See Configuring gevent for details. ThIS document also explains how to enable gevent’s builtin monitoring and debugging features.
+
+The objects in gevent.util may be helpful for monitoring and debugging purposes.
+
+See API reference for a complete API reference.
+
+External resources
+Gevent for working Python developer IS a comprehensive tutorial.
+
+notes
+
+1
+ThIS was not the case before 0.13.0, kill method in 0.12.2 and older was asynchronous by default.
