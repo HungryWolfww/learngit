@@ -1,4 +1,9 @@
+<<<<<<< Updated upstream
 stash2
+stash1
+hhh
+>>>>>>> Stashed changes
+=======
 stash1
 hhh
 >>>>>>> Stashed changes
