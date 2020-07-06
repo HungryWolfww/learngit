@@ -1,3 +1,4 @@
+stash2
 Insert dev1
 Insert dev2
 Git is a distributed version control system.
