@@ -1,0 +1,410 @@
+Abstract
+
+MySQL Shell is an advanced client and code editor for MySQL Server. This document describes the core features of MySQL Shell. In addition to the provided SQL functionality, similar to mysql, MySQL Shell provides scripting capabilities for JavaScript and Python and includes APIs for working with MySQL. X DevAPI enables you to work with both relational and document data, see Using MySQL as a Document Store. AdminAPI enables you to work with InnoDB cluster, see InnoDB Cluster.
+
+MySQL Shell 8.0 is highly recommended for use with MySQL Server 8.0 and 5.7. Please upgrade to MySQL Shell 8.0. If you have not yet installed MySQL Shell, download it from the download site.
+
+For notes detailing the changes in each release, see the MySQL Shell Release Notes.
+
+For help with using MySQL, please visit the MySQL Forums, where you can discuss your issues with other MySQL users.
+
+Licensing information.  This product may include third-party software, used under license. If you are using a Commercial release of MySQL Shell, see MySQL Shell Commercial License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Commercial release. If you are using a Community release of MySQL Shell, see MySQL Shell Community License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Community release.
+
+Document generated on: 2020-06-26 (revision: 66388)
+Abstract
+
+MySQL Shell is an advanced client and code editor for MySQL Server. This document describes the core features of MySQL Shell. In addition to the provided SQL functionality, similar to mysql, MySQL Shell provides scripting capabilities for JavaScript and Python and includes APIs for working with MySQL. X DevAPI enables you to work with both relational and document data, see Using MySQL as a Document Store. AdminAPI enables you to work with InnoDB cluster, see InnoDB Cluster.
+
+MySQL Shell 8.0 is highly recommended for use with MySQL Server 8.0 and 5.7. Please upgrade to MySQL Shell 8.0. If you have not yet installed MySQL Shell, download it from the download site.
+
+For notes detailing the changes in each release, see the MySQL Shell Release Notes.
+
+For help with using MySQL, please visit the MySQL Forums, where you can discuss your issues with other MySQL users.
+
+Licensing information.  This product may include third-party software, used under license. If you are using a Commercial release of MySQL Shell, see MySQL Shell Commercial License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Commercial release. If you are using a Community release of MySQL Shell, see MySQL Shell Community License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Community release.
+
+Document generated on: 2020-06-26 (revision: 66388)Abstract
+
+MySQL Shell is an advanced client and code editor for MySQL Server. This document describes the core features of MySQL Shell. In addition to the provided SQL functionality, similar to mysql, MySQL Shell provides scripting capabilities for JavaScript and Python and includes APIs for working with MySQL. X DevAPI enables you to work with both relational and document data, see Using MySQL as a Document Store. AdminAPI enables you to work with InnoDB cluster, see InnoDB Cluster.
+
+MySQL Shell 8.0 is highly recommended for use with MySQL Server 8.0 and 5.7. Please upgrade to MySQL Shell 8.0. If you have not yet installed MySQL Shell, download it from the download site.
+
+For notes detailing the changes in each release, see the MySQL Shell Release Notes.
+
+For help with using MySQL, please visit the MySQL Forums, where you can discuss your issues with other MySQL users.
+
+Licensing information.  This product may include third-party software, used under license. If you are using a Commercial release of MySQL Shell, see MySQL Shell Commercial License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Commercial release. If you are using a Community release of MySQL Shell, see MySQL Shell Community License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Community release.
+
+Document generated on: 2020-06-26 (revision: 66388)Abstract
+
+MySQL Shell is an advanced client and code editor for MySQL Server. This document describes the core features of MySQL Shell. In addition to the provided SQL functionality, similar to mysql, MySQL Shell provides scripting capabilities for JavaScript and Python and includes APIs for working with MySQL. X DevAPI enables you to work with both relational and document data, see Using MySQL as a Document Store. AdminAPI enables you to work with InnoDB cluster, see InnoDB Cluster.
+
+MySQL Shell 8.0 is highly recommended for use with MySQL Server 8.0 and 5.7. Please upgrade to MySQL Shell 8.0. If you have not yet installed MySQL Shell, download it from the download site.
+
+For notes detailing the changes in each release, see the MySQL Shell Release Notes.
+
+For help with using MySQL, please visit the MySQL Forums, where you can discuss your issues with other MySQL users.
+
+Licensing information.  This product may include third-party software, used under license. If you are using a Commercial release of MySQL Shell, see MySQL Shell Commercial License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Commercial release. If you are using a Community release of MySQL Shell, see MySQL Shell Community License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Community release.
+
+Document generated on: 2020-06-26 (revision: 66388)Abstract
+
+MySQL Shell is an advanced client and code editor for MySQL Server. This document describes the core features of MySQL Shell. In addition to the provided SQL functionality, similar to mysql, MySQL Shell provides scripting capabilities for JavaScript and Python and includes APIs for working with MySQL. X DevAPI enables you to work with both relational and document data, see Using MySQL as a Document Store. AdminAPI enables you to work with InnoDB cluster, see InnoDB Cluster.
+
+MySQL Shell 8.0 is highly recommended for use with MySQL Server 8.0 and 5.7. Please upgrade to MySQL Shell 8.0. If you have not yet installed MySQL Shell, download it from the download site.
+
+For notes detailing the changes in each release, see the MySQL Shell Release Notes.
+
+For help with using MySQL, please visit the MySQL Forums, where you can discuss your issues with other MySQL users.
+
+Licensing information.  This product may include third-party software, used under license. If you are using a Commercial release of MySQL Shell, see MySQL Shell Commercial License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Commercial release. If you are using a Community release of MySQL Shell, see MySQL Shell Community License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Community release.
+
+Document generated on: 2020-06-26 (revision: 66388)Abstract
+
+MySQL Shell is an advanced client and code editor for MySQL Server. This document describes the core features of MySQL Shell. In addition to the provided SQL functionality, similar to mysql, MySQL Shell provides scripting capabilities for JavaScript and Python and includes APIs for working with MySQL. X DevAPI enables you to work with both relational and document data, see Using MySQL as a Document Store. AdminAPI enables you to work with InnoDB cluster, see InnoDB Cluster.
+
+MySQL Shell 8.0 is highly recommended for use with MySQL Server 8.0 and 5.7. Please upgrade to MySQL Shell 8.0. If you have not yet installed MySQL Shell, download it from the download site.
+
+For notes detailing the changes in each release, see the MySQL Shell Release Notes.
+
+For help with using MySQL, please visit the MySQL Forums, where you can discuss your issues with other MySQL users.
+
+Licensing information.  This product may include third-party software, used under license. If you are using a Commercial release of MySQL Shell, see MySQL Shell Commercial License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Commercial release. If you are using a Community release of MySQL Shell, see MySQL Shell Community License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Community release.
+
+Document generated on: 2020-06-26 (revision: 66388)Abstract
+
+MySQL Shell is an advanced client and code editor for MySQL Server. This document describes the core features of MySQL Shell. In addition to the provided SQL functionality, similar to mysql, MySQL Shell provides scripting capabilities for JavaScript and Python and includes APIs for working with MySQL. X DevAPI enables you to work with both relational and document data, see Using MySQL as a Document Store. AdminAPI enables you to work with InnoDB cluster, see InnoDB Cluster.
+
+MySQL Shell 8.0 is highly recommended for use with MySQL Server 8.0 and 5.7. Please upgrade to MySQL Shell 8.0. If you have not yet installed MySQL Shell, download it from the download site.
+
+For notes detailing the changes in each release, see the MySQL Shell Release Notes.
+
+For help with using MySQL, please visit the MySQL Forums, where you can discuss your issues with other MySQL users.
+
+Licensing information.  This product may include third-party software, used under license. If you are using a Commercial release of MySQL Shell, see MySQL Shell Commercial License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Commercial release. If you are using a Community release of MySQL Shell, see MySQL Shell Community License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Community release.
+
+Document generated on: 2020-06-26 (revision: 66388)Abstract
+
+MySQL Shell is an advanced client and code editor for MySQL Server. This document describes the core features of MySQL Shell. In addition to the provided SQL functionality, similar to mysql, MySQL Shell provides scripting capabilities for JavaScript and Python and includes APIs for working with MySQL. X DevAPI enables you to work with both relational and document data, see Using MySQL as a Document Store. AdminAPI enables you to work with InnoDB cluster, see InnoDB Cluster.
+
+MySQL Shell 8.0 is highly recommended for use with MySQL Server 8.0 and 5.7. Please upgrade to MySQL Shell 8.0. If you have not yet installed MySQL Shell, download it from the download site.
+
+For notes detailing the changes in each release, see the MySQL Shell Release Notes.
+
+For help with using MySQL, please visit the MySQL Forums, where you can discuss your issues with other MySQL users.
+
+Licensing information.  This product may include third-party software, used under license. If you are using a Commercial release of MySQL Shell, see MySQL Shell Commercial License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Commercial release. If you are using a Community release of MySQL Shell, see MySQL Shell Community License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Community release.
+
+Document generated on: 2020-06-26 (revision: 66388)Abstract
+
+MySQL Shell is an advanced client and code editor for MySQL Server. This document describes the core features of MySQL Shell. In addition to the provided SQL functionality, similar to mysql, MySQL Shell provides scripting capabilities for JavaScript and Python and includes APIs for working with MySQL. X DevAPI enables you to work with both relational and document data, see Using MySQL as a Document Store. AdminAPI enables you to work with InnoDB cluster, see InnoDB Cluster.
+
+MySQL Shell 8.0 is highly recommended for use with MySQL Server 8.0 and 5.7. Please upgrade to MySQL Shell 8.0. If you have not yet installed MySQL Shell, download it from the download site.
+
+For notes detailing the changes in each release, see the MySQL Shell Release Notes.
+
+For help with using MySQL, please visit the MySQL Forums, where you can discuss your issues with other MySQL users.
+
+Licensing information.  This product may include third-party software, used under license. If you are using a Commercial release of MySQL Shell, see MySQL Shell Commercial License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Commercial release. If you are using a Community release of MySQL Shell, see MySQL Shell Community License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Community release.
+
+Document generated on: 2020-06-26 (revision: 66388)Abstract
+
+MySQL Shell is an advanced client and code editor for MySQL Server. This document describes the core features of MySQL Shell. In addition to the provided SQL functionality, similar to mysql, MySQL Shell provides scripting capabilities for JavaScript and Python and includes APIs for working with MySQL. X DevAPI enables you to work with both relational and document data, see Using MySQL as a Document Store. AdminAPI enables you to work with InnoDB cluster, see InnoDB Cluster.
+
+MySQL Shell 8.0 is highly recommended for use with MySQL Server 8.0 and 5.7. Please upgrade to MySQL Shell 8.0. If you have not yet installed MySQL Shell, download it from the download site.
+
+For notes detailing the changes in each release, see the MySQL Shell Release Notes.
+
+For help with using MySQL, please visit the MySQL Forums, where you can discuss your issues with other MySQL users.
+
+Licensing information.  This product may include third-party software, used under license. If you are using a Commercial release of MySQL Shell, see MySQL Shell Commercial License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Commercial release. If you are using a Community release of MySQL Shell, see MySQL Shell Community License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Community release.
+
+Document generated on: 2020-06-26 (revision: 66388)Abstract
+
+MySQL Shell is an advanced client and code editor for MySQL Server. This document describes the core features of MySQL Shell. In addition to the provided SQL functionality, similar to mysql, MySQL Shell provides scripting capabilities for JavaScript and Python and includes APIs for working with MySQL. X DevAPI enables you to work with both relational and document data, see Using MySQL as a Document Store. AdminAPI enables you to work with InnoDB cluster, see InnoDB Cluster.
+
+MySQL Shell 8.0 is highly recommended for use with MySQL Server 8.0 and 5.7. Please upgrade to MySQL Shell 8.0. If you have not yet installed MySQL Shell, download it from the download site.
+
+For notes detailing the changes in each release, see the MySQL Shell Release Notes.
+
+For help with using MySQL, please visit the MySQL Forums, where you can discuss your issues with other MySQL users.
+
+Licensing information.  This product may include third-party software, used under license. If you are using a Commercial release of MySQL Shell, see MySQL Shell Commercial License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Commercial release. If you are using a Community release of MySQL Shell, see MySQL Shell Community License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Community release.
+
+Document generated on: 2020-06-26 (revision: 66388)Abstract
+
+MySQL Shell is an advanced client and code editor for MySQL Server. This document describes the core features of MySQL Shell. In addition to the provided SQL functionality, similar to mysql, MySQL Shell provides scripting capabilities for JavaScript and Python and includes APIs for working with MySQL. X DevAPI enables you to work with both relational and document data, see Using MySQL as a Document Store. AdminAPI enables you to work with InnoDB cluster, see InnoDB Cluster.
+
+MySQL Shell 8.0 is highly recommended for use with MySQL Server 8.0 and 5.7. Please upgrade to MySQL Shell 8.0. If you have not yet installed MySQL Shell, download it from the download site.
+
+For notes detailing the changes in each release, see the MySQL Shell Release Notes.
+
+For help with using MySQL, please visit the MySQL Forums, where you can discuss your issues with other MySQL users.
+
+Licensing information.  This product may include third-party software, used under license. If you are using a Commercial release of MySQL Shell, see MySQL Shell Commercial License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Commercial release. If you are using a Community release of MySQL Shell, see MySQL Shell Community License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Community release.
+
+Document generated on: 2020-06-26 (revision: 66388)Abstract
+
+MySQL Shell is an advanced client and code editor for MySQL Server. This document describes the core features of MySQL Shell. In addition to the provided SQL functionality, similar to mysql, MySQL Shell provides scripting capabilities for JavaScript and Python and includes APIs for working with MySQL. X DevAPI enables you to work with both relational and document data, see Using MySQL as a Document Store. AdminAPI enables you to work with InnoDB cluster, see InnoDB Cluster.
+
+MySQL Shell 8.0 is highly recommended for use with MySQL Server 8.0 and 5.7. Please upgrade to MySQL Shell 8.0. If you have not yet installed MySQL Shell, download it from the download site.
+
+For notes detailing the changes in each release, see the MySQL Shell Release Notes.
+
+For help with using MySQL, please visit the MySQL Forums, where you can discuss your issues with other MySQL users.
+
+Licensing information.  This product may include third-party software, used under license. If you are using a Commercial release of MySQL Shell, see MySQL Shell Commercial License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Commercial release. If you are using a Community release of MySQL Shell, see MySQL Shell Community License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Community release.
+
+Document generated on: 2020-06-26 (revision: 66388)Abstract
+
+MySQL Shell is an advanced client and code editor for MySQL Server. This document describes the core features of MySQL Shell. In addition to the provided SQL functionality, similar to mysql, MySQL Shell provides scripting capabilities for JavaScript and Python and includes APIs for working with MySQL. X DevAPI enables you to work with both relational and document data, see Using MySQL as a Document Store. AdminAPI enables you to work with InnoDB cluster, see InnoDB Cluster.
+
+MySQL Shell 8.0 is highly recommended for use with MySQL Server 8.0 and 5.7. Please upgrade to MySQL Shell 8.0. If you have not yet installed MySQL Shell, download it from the download site.
+
+For notes detailing the changes in each release, see the MySQL Shell Release Notes.
+
+For help with using MySQL, please visit the MySQL Forums, where you can discuss your issues with other MySQL users.
+
+Licensing information.  This product may include third-party software, used under license. If you are using a Commercial release of MySQL Shell, see MySQL Shell Commercial License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Commercial release. If you are using a Community release of MySQL Shell, see MySQL Shell Community License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Community release.
+
+Document generated on: 2020-06-26 (revision: 66388)Abstract
+
+MySQL Shell is an advanced client and code editor for MySQL Server. This document describes the core features of MySQL Shell. In addition to the provided SQL functionality, similar to mysql, MySQL Shell provides scripting capabilities for JavaScript and Python and includes APIs for working with MySQL. X DevAPI enables you to work with both relational and document data, see Using MySQL as a Document Store. AdminAPI enables you to work with InnoDB cluster, see InnoDB Cluster.
+
+MySQL Shell 8.0 is highly recommended for use with MySQL Server 8.0 and 5.7. Please upgrade to MySQL Shell 8.0. If you have not yet installed MySQL Shell, download it from the download site.
+
+For notes detailing the changes in each release, see the MySQL Shell Release Notes.
+
+For help with using MySQL, please visit the MySQL Forums, where you can discuss your issues with other MySQL users.
+
+Licensing information.  This product may include third-party software, used under license. If you are using a Commercial release of MySQL Shell, see MySQL Shell Commercial License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Commercial release. If you are using a Community release of MySQL Shell, see MySQL Shell Community License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Community release.
+
+Document generated on: 2020-06-26 (revision: 66388)Abstract
+
+MySQL Shell is an advanced client and code editor for MySQL Server. This document describes the core features of MySQL Shell. In addition to the provided SQL functionality, similar to mysql, MySQL Shell provides scripting capabilities for JavaScript and Python and includes APIs for working with MySQL. X DevAPI enables you to work with both relational and document data, see Using MySQL as a Document Store. AdminAPI enables you to work with InnoDB cluster, see InnoDB Cluster.
+
+MySQL Shell 8.0 is highly recommended for use with MySQL Server 8.0 and 5.7. Please upgrade to MySQL Shell 8.0. If you have not yet installed MySQL Shell, download it from the download site.
+
+For notes detailing the changes in each release, see the MySQL Shell Release Notes.
+
+For help with using MySQL, please visit the MySQL Forums, where you can discuss your issues with other MySQL users.
+
+Licensing information.  This product may include third-party software, used under license. If you are using a Commercial release of MySQL Shell, see MySQL Shell Commercial License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Commercial release. If you are using a Community release of MySQL Shell, see MySQL Shell Community License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Community release.
+
+Document generated on: 2020-06-26 (revision: 66388)Abstract
+
+MySQL Shell is an advanced client and code editor for MySQL Server. This document describes the core features of MySQL Shell. In addition to the provided SQL functionality, similar to mysql, MySQL Shell provides scripting capabilities for JavaScript and Python and includes APIs for working with MySQL. X DevAPI enables you to work with both relational and document data, see Using MySQL as a Document Store. AdminAPI enables you to work with InnoDB cluster, see InnoDB Cluster.
+
+MySQL Shell 8.0 is highly recommended for use with MySQL Server 8.0 and 5.7. Please upgrade to MySQL Shell 8.0. If you have not yet installed MySQL Shell, download it from the download site.
+
+For notes detailing the changes in each release, see the MySQL Shell Release Notes.
+
+For help with using MySQL, please visit the MySQL Forums, where you can discuss your issues with other MySQL users.
+
+Licensing information.  This product may include third-party software, used under license. If you are using a Commercial release of MySQL Shell, see MySQL Shell Commercial License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Commercial release. If you are using a Community release of MySQL Shell, see MySQL Shell Community License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Community release.
+
+Document generated on: 2020-06-26 (revision: 66388)Abstract
+
+MySQL Shell is an advanced client and code editor for MySQL Server. This document describes the core features of MySQL Shell. In addition to the provided SQL functionality, similar to mysql, MySQL Shell provides scripting capabilities for JavaScript and Python and includes APIs for working with MySQL. X DevAPI enables you to work with both relational and document data, see Using MySQL as a Document Store. AdminAPI enables you to work with InnoDB cluster, see InnoDB Cluster.
+
+MySQL Shell 8.0 is highly recommended for use with MySQL Server 8.0 and 5.7. Please upgrade to MySQL Shell 8.0. If you have not yet installed MySQL Shell, download it from the download site.
+
+For notes detailing the changes in each release, see the MySQL Shell Release Notes.
+
+For help with using MySQL, please visit the MySQL Forums, where you can discuss your issues with other MySQL users.
+
+Licensing information.  This product may include third-party software, used under license. If you are using a Commercial release of MySQL Shell, see MySQL Shell Commercial License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Commercial release. If you are using a Community release of MySQL Shell, see MySQL Shell Community License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Community release.
+
+Document generated on: 2020-06-26 (revision: 66388)Abstract
+
+MySQL Shell is an advanced client and code editor for MySQL Server. This document describes the core features of MySQL Shell. In addition to the provided SQL functionality, similar to mysql, MySQL Shell provides scripting capabilities for JavaScript and Python and includes APIs for working with MySQL. X DevAPI enables you to work with both relational and document data, see Using MySQL as a Document Store. AdminAPI enables you to work with InnoDB cluster, see InnoDB Cluster.
+
+MySQL Shell 8.0 is highly recommended for use with MySQL Server 8.0 and 5.7. Please upgrade to MySQL Shell 8.0. If you have not yet installed MySQL Shell, download it from the download site.
+
+For notes detailing the changes in each release, see the MySQL Shell Release Notes.
+
+For help with using MySQL, please visit the MySQL Forums, where you can discuss your issues with other MySQL users.
+
+Licensing information.  This product may include third-party software, used under license. If you are using a Commercial release of MySQL Shell, see MySQL Shell Commercial License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Commercial release. If you are using a Community release of MySQL Shell, see MySQL Shell Community License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Community release.
+
+Document generated on: 2020-06-26 (revision: 66388)Abstract
+
+MySQL Shell is an advanced client and code editor for MySQL Server. This document describes the core features of MySQL Shell. In addition to the provided SQL functionality, similar to mysql, MySQL Shell provides scripting capabilities for JavaScript and Python and includes APIs for working with MySQL. X DevAPI enables you to work with both relational and document data, see Using MySQL as a Document Store. AdminAPI enables you to work with InnoDB cluster, see InnoDB Cluster.
+
+MySQL Shell 8.0 is highly recommended for use with MySQL Server 8.0 and 5.7. Please upgrade to MySQL Shell 8.0. If you have not yet installed MySQL Shell, download it from the download site.
+
+For notes detailing the changes in each release, see the MySQL Shell Release Notes.
+
+For help with using MySQL, please visit the MySQL Forums, where you can discuss your issues with other MySQL users.
+
+Licensing information.  This product may include third-party software, used under license. If you are using a Commercial release of MySQL Shell, see MySQL Shell Commercial License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Commercial release. If you are using a Community release of MySQL Shell, see MySQL Shell Community License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Community release.
+
+Document generated on: 2020-06-26 (revision: 66388)Abstract
+
+MySQL Shell is an advanced client and code editor for MySQL Server. This document describes the core features of MySQL Shell. In addition to the provided SQL functionality, similar to mysql, MySQL Shell provides scripting capabilities for JavaScript and Python and includes APIs for working with MySQL. X DevAPI enables you to work with both relational and document data, see Using MySQL as a Document Store. AdminAPI enables you to work with InnoDB cluster, see InnoDB Cluster.
+
+MySQL Shell 8.0 is highly recommended for use with MySQL Server 8.0 and 5.7. Please upgrade to MySQL Shell 8.0. If you have not yet installed MySQL Shell, download it from the download site.
+
+For notes detailing the changes in each release, see the MySQL Shell Release Notes.
+
+For help with using MySQL, please visit the MySQL Forums, where you can discuss your issues with other MySQL users.
+
+Licensing information.  This product may include third-party software, used under license. If you are using a Commercial release of MySQL Shell, see MySQL Shell Commercial License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Commercial release. If you are using a Community release of MySQL Shell, see MySQL Shell Community License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Community release.
+
+Document generated on: 2020-06-26 (revision: 66388)Abstract
+
+MySQL Shell is an advanced client and code editor for MySQL Server. This document describes the core features of MySQL Shell. In addition to the provided SQL functionality, similar to mysql, MySQL Shell provides scripting capabilities for JavaScript and Python and includes APIs for working with MySQL. X DevAPI enables you to work with both relational and document data, see Using MySQL as a Document Store. AdminAPI enables you to work with InnoDB cluster, see InnoDB Cluster.
+
+MySQL Shell 8.0 is highly recommended for use with MySQL Server 8.0 and 5.7. Please upgrade to MySQL Shell 8.0. If you have not yet installed MySQL Shell, download it from the download site.
+
+For notes detailing the changes in each release, see the MySQL Shell Release Notes.
+
+For help with using MySQL, please visit the MySQL Forums, where you can discuss your issues with other MySQL users.
+
+Licensing information.  This product may include third-party software, used under license. If you are using a Commercial release of MySQL Shell, see MySQL Shell Commercial License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Commercial release. If you are using a Community release of MySQL Shell, see MySQL Shell Community License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Community release.
+
+Document generated on: 2020-06-26 (revision: 66388)Abstract
+
+MySQL Shell is an advanced client and code editor for MySQL Server. This document describes the core features of MySQL Shell. In addition to the provided SQL functionality, similar to mysql, MySQL Shell provides scripting capabilities for JavaScript and Python and includes APIs for working with MySQL. X DevAPI enables you to work with both relational and document data, see Using MySQL as a Document Store. AdminAPI enables you to work with InnoDB cluster, see InnoDB Cluster.
+
+MySQL Shell 8.0 is highly recommended for use with MySQL Server 8.0 and 5.7. Please upgrade to MySQL Shell 8.0. If you have not yet installed MySQL Shell, download it from the download site.
+
+For notes detailing the changes in each release, see the MySQL Shell Release Notes.
+
+For help with using MySQL, please visit the MySQL Forums, where you can discuss your issues with other MySQL users.
+
+Licensing information.  This product may include third-party software, used under license. If you are using a Commercial release of MySQL Shell, see MySQL Shell Commercial License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Commercial release. If you are using a Community release of MySQL Shell, see MySQL Shell Community License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Community release.
+
+Document generated on: 2020-06-26 (revision: 66388)Abstract
+
+MySQL Shell is an advanced client and code editor for MySQL Server. This document describes the core features of MySQL Shell. In addition to the provided SQL functionality, similar to mysql, MySQL Shell provides scripting capabilities for JavaScript and Python and includes APIs for working with MySQL. X DevAPI enables you to work with both relational and document data, see Using MySQL as a Document Store. AdminAPI enables you to work with InnoDB cluster, see InnoDB Cluster.
+
+MySQL Shell 8.0 is highly recommended for use with MySQL Server 8.0 and 5.7. Please upgrade to MySQL Shell 8.0. If you have not yet installed MySQL Shell, download it from the download site.
+
+For notes detailing the changes in each release, see the MySQL Shell Release Notes.
+
+For help with using MySQL, please visit the MySQL Forums, where you can discuss your issues with other MySQL users.
+
+Licensing information.  This product may include third-party software, used under license. If you are using a Commercial release of MySQL Shell, see MySQL Shell Commercial License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Commercial release. If you are using a Community release of MySQL Shell, see MySQL Shell Community License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Community release.
+
+Document generated on: 2020-06-26 (revision: 66388)Abstract
+
+MySQL Shell is an advanced client and code editor for MySQL Server. This document describes the core features of MySQL Shell. In addition to the provided SQL functionality, similar to mysql, MySQL Shell provides scripting capabilities for JavaScript and Python and includes APIs for working with MySQL. X DevAPI enables you to work with both relational and document data, see Using MySQL as a Document Store. AdminAPI enables you to work with InnoDB cluster, see InnoDB Cluster.
+
+MySQL Shell 8.0 is highly recommended for use with MySQL Server 8.0 and 5.7. Please upgrade to MySQL Shell 8.0. If you have not yet installed MySQL Shell, download it from the download site.
+
+For notes detailing the changes in each release, see the MySQL Shell Release Notes.
+
+For help with using MySQL, please visit the MySQL Forums, where you can discuss your issues with other MySQL users.
+
+Licensing information.  This product may include third-party software, used under license. If you are using a Commercial release of MySQL Shell, see MySQL Shell Commercial License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Commercial release. If you are using a Community release of MySQL Shell, see MySQL Shell Community License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Community release.
+
+Document generated on: 2020-06-26 (revision: 66388)Abstract
+
+MySQL Shell is an advanced client and code editor for MySQL Server. This document describes the core features of MySQL Shell. In addition to the provided SQL functionality, similar to mysql, MySQL Shell provides scripting capabilities for JavaScript and Python and includes APIs for working with MySQL. X DevAPI enables you to work with both relational and document data, see Using MySQL as a Document Store. AdminAPI enables you to work with InnoDB cluster, see InnoDB Cluster.
+
+MySQL Shell 8.0 is highly recommended for use with MySQL Server 8.0 and 5.7. Please upgrade to MySQL Shell 8.0. If you have not yet installed MySQL Shell, download it from the download site.
+
+For notes detailing the changes in each release, see the MySQL Shell Release Notes.
+
+For help with using MySQL, please visit the MySQL Forums, where you can discuss your issues with other MySQL users.
+
+Licensing information.  This product may include third-party software, used under license. If you are using a Commercial release of MySQL Shell, see MySQL Shell Commercial License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Commercial release. If you are using a Community release of MySQL Shell, see MySQL Shell Community License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Community release.
+
+Document generated on: 2020-06-26 (revision: 66388)Abstract
+
+MySQL Shell is an advanced client and code editor for MySQL Server. This document describes the core features of MySQL Shell. In addition to the provided SQL functionality, similar to mysql, MySQL Shell provides scripting capabilities for JavaScript and Python and includes APIs for working with MySQL. X DevAPI enables you to work with both relational and document data, see Using MySQL as a Document Store. AdminAPI enables you to work with InnoDB cluster, see InnoDB Cluster.
+
+MySQL Shell 8.0 is highly recommended for use with MySQL Server 8.0 and 5.7. Please upgrade to MySQL Shell 8.0. If you have not yet installed MySQL Shell, download it from the download site.
+
+For notes detailing the changes in each release, see the MySQL Shell Release Notes.
+
+For help with using MySQL, please visit the MySQL Forums, where you can discuss your issues with other MySQL users.
+
+Licensing information.  This product may include third-party software, used under license. If you are using a Commercial release of MySQL Shell, see MySQL Shell Commercial License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Commercial release. If you are using a Community release of MySQL Shell, see MySQL Shell Community License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Community release.
+
+Document generated on: 2020-06-26 (revision: 66388)Abstract
+
+MySQL Shell is an advanced client and code editor for MySQL Server. This document describes the core features of MySQL Shell. In addition to the provided SQL functionality, similar to mysql, MySQL Shell provides scripting capabilities for JavaScript and Python and includes APIs for working with MySQL. X DevAPI enables you to work with both relational and document data, see Using MySQL as a Document Store. AdminAPI enables you to work with InnoDB cluster, see InnoDB Cluster.
+
+MySQL Shell 8.0 is highly recommended for use with MySQL Server 8.0 and 5.7. Please upgrade to MySQL Shell 8.0. If you have not yet installed MySQL Shell, download it from the download site.
+
+For notes detailing the changes in each release, see the MySQL Shell Release Notes.
+
+For help with using MySQL, please visit the MySQL Forums, where you can discuss your issues with other MySQL users.
+
+Licensing information.  This product may include third-party software, used under license. If you are using a Commercial release of MySQL Shell, see MySQL Shell Commercial License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Commercial release. If you are using a Community release of MySQL Shell, see MySQL Shell Community License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Community release.
+
+Document generated on: 2020-06-26 (revision: 66388)Abstract
+
+MySQL Shell is an advanced client and code editor for MySQL Server. This document describes the core features of MySQL Shell. In addition to the provided SQL functionality, similar to mysql, MySQL Shell provides scripting capabilities for JavaScript and Python and includes APIs for working with MySQL. X DevAPI enables you to work with both relational and document data, see Using MySQL as a Document Store. AdminAPI enables you to work with InnoDB cluster, see InnoDB Cluster.
+
+MySQL Shell 8.0 is highly recommended for use with MySQL Server 8.0 and 5.7. Please upgrade to MySQL Shell 8.0. If you have not yet installed MySQL Shell, download it from the download site.
+
+For notes detailing the changes in each release, see the MySQL Shell Release Notes.
+
+For help with using MySQL, please visit the MySQL Forums, where you can discuss your issues with other MySQL users.
+
+Licensing information.  This product may include third-party software, used under license. If you are using a Commercial release of MySQL Shell, see MySQL Shell Commercial License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Commercial release. If you are using a Community release of MySQL Shell, see MySQL Shell Community License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Community release.
+
+Document generated on: 2020-06-26 (revision: 66388)Abstract
+
+MySQL Shell is an advanced client and code editor for MySQL Server. This document describes the core features of MySQL Shell. In addition to the provided SQL functionality, similar to mysql, MySQL Shell provides scripting capabilities for JavaScript and Python and includes APIs for working with MySQL. X DevAPI enables you to work with both relational and document data, see Using MySQL as a Document Store. AdminAPI enables you to work with InnoDB cluster, see InnoDB Cluster.
+
+MySQL Shell 8.0 is highly recommended for use with MySQL Server 8.0 and 5.7. Please upgrade to MySQL Shell 8.0. If you have not yet installed MySQL Shell, download it from the download site.
+
+For notes detailing the changes in each release, see the MySQL Shell Release Notes.
+
+For help with using MySQL, please visit the MySQL Forums, where you can discuss your issues with other MySQL users.
+
+Licensing information.  This product may include third-party software, used under license. If you are using a Commercial release of MySQL Shell, see MySQL Shell Commercial License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Commercial release. If you are using a Community release of MySQL Shell, see MySQL Shell Community License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Community release.
+
+Document generated on: 2020-06-26 (revision: 66388)Abstract
+
+MySQL Shell is an advanced client and code editor for MySQL Server. This document describes the core features of MySQL Shell. In addition to the provided SQL functionality, similar to mysql, MySQL Shell provides scripting capabilities for JavaScript and Python and includes APIs for working with MySQL. X DevAPI enables you to work with both relational and document data, see Using MySQL as a Document Store. AdminAPI enables you to work with InnoDB cluster, see InnoDB Cluster.
+
+MySQL Shell 8.0 is highly recommended for use with MySQL Server 8.0 and 5.7. Please upgrade to MySQL Shell 8.0. If you have not yet installed MySQL Shell, download it from the download site.
+
+For notes detailing the changes in each release, see the MySQL Shell Release Notes.
+
+For help with using MySQL, please visit the MySQL Forums, where you can discuss your issues with other MySQL users.
+
+Licensing information.  This product may include third-party software, used under license. If you are using a Commercial release of MySQL Shell, see MySQL Shell Commercial License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Commercial release. If you are using a Community release of MySQL Shell, see MySQL Shell Community License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Community release.
+
+Document generated on: 2020-06-26 (revision: 66388)Abstract
+
+MySQL Shell is an advanced client and code editor for MySQL Server. This document describes the core features of MySQL Shell. In addition to the provided SQL functionality, similar to mysql, MySQL Shell provides scripting capabilities for JavaScript and Python and includes APIs for working with MySQL. X DevAPI enables you to work with both relational and document data, see Using MySQL as a Document Store. AdminAPI enables you to work with InnoDB cluster, see InnoDB Cluster.
+
+MySQL Shell 8.0 is highly recommended for use with MySQL Server 8.0 and 5.7. Please upgrade to MySQL Shell 8.0. If you have not yet installed MySQL Shell, download it from the download site.
+
+For notes detailing the changes in each release, see the MySQL Shell Release Notes.
+
+For help with using MySQL, please visit the MySQL Forums, where you can discuss your issues with other MySQL users.
+
+Licensing information.  This product may include third-party software, used under license. If you are using a Commercial release of MySQL Shell, see MySQL Shell Commercial License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Commercial release. If you are using a Community release of MySQL Shell, see MySQL Shell Community License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Community release.
+
+Document generated on: 2020-06-26 (revision: 66388)Abstract
+
+MySQL Shell is an advanced client and code editor for MySQL Server. This document describes the core features of MySQL Shell. In addition to the provided SQL functionality, similar to mysql, MySQL Shell provides scripting capabilities for JavaScript and Python and includes APIs for working with MySQL. X DevAPI enables you to work with both relational and document data, see Using MySQL as a Document Store. AdminAPI enables you to work with InnoDB cluster, see InnoDB Cluster.
+
+MySQL Shell 8.0 is highly recommended for use with MySQL Server 8.0 and 5.7. Please upgrade to MySQL Shell 8.0. If you have not yet installed MySQL Shell, download it from the download site.
+
+For notes detailing the changes in each release, see the MySQL Shell Release Notes.
+
+For help with using MySQL, please visit the MySQL Forums, where you can discuss your issues with other MySQL users.
+
+Licensing information.  This product may include third-party software, used under license. If you are using a Commercial release of MySQL Shell, see MySQL Shell Commercial License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Commercial release. If you are using a Community release of MySQL Shell, see MySQL Shell Community License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Community release.
+
+Document generated on: 2020-06-26 (revision: 66388)Abstract
+
+MySQL Shell is an advanced client and code editor for MySQL Server. This document describes the core features of MySQL Shell. In addition to the provided SQL functionality, similar to mysql, MySQL Shell provides scripting capabilities for JavaScript and Python and includes APIs for working with MySQL. X DevAPI enables you to work with both relational and document data, see Using MySQL as a Document Store. AdminAPI enables you to work with InnoDB cluster, see InnoDB Cluster.
+
+MySQL Shell 8.0 is highly recommended for use with MySQL Server 8.0 and 5.7. Please upgrade to MySQL Shell 8.0. If you have not yet installed MySQL Shell, download it from the download site.
+
+For notes detailing the changes in each release, see the MySQL Shell Release Notes.
+
+For help with using MySQL, please visit the MySQL Forums, where you can discuss your issues with other MySQL users.
+
+Licensing information.  This product may include third-party software, used under license. If you are using a Commercial release of MySQL Shell, see MySQL Shell Commercial License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Commercial release. If you are using a Community release of MySQL Shell, see MySQL Shell Community License Information User Manual for licensing information, including licensing information relating to third-party software that may be included in this Community release.
+
+Document generated on: 2020-06-26 (revision: 66388)
