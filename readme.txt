@@ -3,7 +3,6 @@ stash1
 hhh
 stash1
 hhh
-stash1
 hhh
 Insert dev1
 Insert dev2
